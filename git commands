@@ -1,0 +1,44 @@
+# 1. Initialize a Git repository
+git init
+
+# 2. Add files to staging
+git add .
+
+# 3. Commit changes with a message
+git commit -m "Initial commit"
+
+# 4. Create a branch feature-login
+git branch feature-login
+git checkout feature-login
+
+# 5. Make a small change in app.js and commit in the branch
+# (Edit app.js with your desired changes)
+git add app.js
+git commit -m "Added login feature in app.js"
+
+# 6. Switch back to main
+git checkout main
+
+# 7. Change style.css and commit
+# (Edit style.css with your changes)
+git add style.css
+git commit -m "Updated styles in style.css"
+
+# 8. Merge feature-login into main
+git merge feature-login
+
+# 9. Handle merge conflicts
+# (If there are conflicts, edit the files to resolve them, then:)
+git add .
+git commit -m "Resolved merge conflicts"
+
+# 10. Use git diff to view changes
+git diff
+
+# 11. Undo changes using git reset and git checkout
+# For example, to reset a file:
+git reset HEAD style.css       # Unstage the file
+git checkout -- style.css      # Discard changes in the file
+
+# 12. Tag the latest commit as v1.0
+git tag v1.0
