@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 24px;
+}
+
+.login-form {
+  display: inline-block;
+  text-align: left;
+  background: #f8f9fa;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+}
+
+.login-form div {
+  margin-bottom: 18px;
+}
+
+.login-form label {
+  display: inline-block;
+  width: 90px;
+}
+
+.login-form input {
+  padding: 7px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.login-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-btn:hover {
+  background-color: #218838;
+}
